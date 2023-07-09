@@ -9,7 +9,8 @@
     <link rel="alternate" href="https://360software-engineers.com" />
     <link rel="canonical" href="https://360software-engineers.com" />
     <meta name="description" content="360 Software Engineers" />
-    <meta name="keywords" content="Software Engineer, Technology, Development, Cloud, DevOps, CI/CD, Agile, Automation, AI, ML, Analytics,
+    <meta name="keywords"
+        content="Software Engineer, Technology, Development, Cloud, DevOps, CI/CD, Agile, Automation, AI, ML, Analytics,
       Big Data, User Experience, Customer Experience, Developer Experience, Release, Team topologies, Architecture, Design, Micro Services,
       Micro Frontends, DDD, Security, Distributed computing, Distrubuted databases, NoSQL, SQL, Streaming,
       Messaging, Integration, SOAP, REST, GraphQL, gRpc, Serverless, NoOps, Infrastructure as Code, Diagram as Code, Architecture as Code" />
@@ -30,33 +31,59 @@
 
 
         h2 {
-            font-size: 2rem; 
+            font-size: 2rem;
         }
 
-        ul {
-            list-style-type: none;
-            font-size: medium;
-        }
-
-        a:visited,
-        a:active,
-        a {
-            color: white;
-            font-size: 1.5rem;
-        }
 
         @media screen and (max-width: 600px) {
             body {
                 padding: 10px;
             }
+
             h2 {
-                font-size: 1.4rem; 
+                font-size: 1.4rem;
             }
+
             a {
                 font-size: 1.2rem;
             }
         }
 
+        .concept-intro {
+            font-size: 2rem;
+        }
+
+        section {
+            margin: auto;
+            width: 80%;
+            padding: 10px;
+        }
+
+        .concept-image {
+            margin: auto;
+            height: 250px;
+            width: 250px;
+        }
+
+        @media screen and (min-width: 500px) and (max-width: 700px) {
+            .concept-image {
+                height: 450px;
+                width: 450px;
+            }
+        }
+
+        @media screen and (min-width: 701px) and (max-width: 1440px) {
+            .concept-image {
+                height: 650px;
+                width: 650px;
+            }
+        }
+
+        @media screen and (min-width: 1441px) {
+            .concept-image {
+                height: 850px;
+                width: 850px;
+            }
     </style>
 </head>
 
@@ -65,8 +92,14 @@
         <h2>360 Software Engineers</h2>
     </header>
     <main>
-      Work in Progress
+        <section class="concept-intro">
+        A 360 Software Engineer is an expert in one or more of the core Software Engineering roles (Architect, Business
+        Analyst, Developer, Delivery Manager, Opertaions, Solution Engineer, Tester) and has played/can play various roles to
+        deliver software quickly.
+        </section>
+        <section>
+            <img src="./360-SE.png" alt="360 Software Engineer" class="concept-image"/>
+        </section>
     </main>
 </body>
-
 </html>
